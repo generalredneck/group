@@ -23,6 +23,7 @@ use Drupal\Core\Session\AccountInterface;
  *   label = @Translation("Group membership"),
  *   description = @Translation("Adds users to groups as members."),
  *   entity_type_id = "user",
+ *   entity_access = TRUE,
  *   pretty_path_key = "member",
  *   reference_label = @Translation("Username"),
  *   reference_description = @Translation("The name of the user you want to make a member"),
